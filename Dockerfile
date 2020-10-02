@@ -26,8 +26,8 @@ ENV dir=/data dir1=/data1
 RUN mkdir $dir && mkdir $dir1
 
 ##ARG##
-ARG dir2
-RUN mkdir $dir2
+##ARG dir2
+##RUN mkdir $dir2
 
 ##EXPOSE##
 RUN apt-get install -y apache2
